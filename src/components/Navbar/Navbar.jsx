@@ -15,7 +15,7 @@ const Navbar = () => {
   const whatsappMessage = `¡Hola! Estoy interesado/a en obtener más información sobre sus propiedades de alquiler.`;
   const whatsappLink = `https://wa.me/5492945649282?text=${encodeURIComponent(
     whatsappMessage
-  )}`; // Reemplaza "1234567890" con tu número de teléfono
+  )}`;
 
   return (
     <nav className="navbar">
@@ -49,13 +49,13 @@ const Navbar = () => {
           <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
             <i className="fa fa-whatsapp social-icon"></i>
           </a>
-          <a
+          {/* <a
             href="https://instagram.com/miempresa"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fa fa-instagram social-icon"></i>
-          </a>
+          </a> */}
         </div>
       </div>
 
@@ -64,13 +64,13 @@ const Navbar = () => {
         <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
           <i className="fa fa-whatsapp social-icon"></i>
         </a>
-        <a
+        {/* <a
           href="https://instagram.com/miempresa"
           target="_blank"
           rel="noopener noreferrer"
         >
           <i className="fa fa-instagram social-icon"></i>
-        </a>
+        </a> */}
       </div>
     </nav>
   );
