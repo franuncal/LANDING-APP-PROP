@@ -1,0 +1,206 @@
+/* Estilos básicos para la sección de detalles de la propiedad */
+.property-detail {
+  padding: 2rem;
+  background-color: white;
+  margin: 2rem auto;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Título principal */
+.property-detail h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Estilos para el contenedor del carrusel de imágenes */
+.carousel-container {
+  margin-bottom: 2rem;
+}
+
+/* Estilo para las imágenes del carrusel */
+.carousel-image {
+  width: 100%;
+  aspect-ratio: 16 / 9; /* Mantén una relación de aspecto uniforme */
+  object-fit: contain; /* Muestra la imagen completa sin recortarla */
+  border-radius: 8px;
+  background-color: #f4f4f4; /* Fondo gris claro para imágenes más pequeñas */
+}
+
+/* Estilos para los párrafos dentro de los detalles de la propiedad */
+.property-detail p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Estilos para los enlaces de WhatsApp y Google Maps */
+.property-detail a {
+  display: inline-block;
+  margin: 1rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #b9aaab;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.property-detail a:hover {
+  background-color: #128c7e;
+}
+
+/* Estilo para el primer enlace (Google Maps) */
+.property-detail a:first-child {
+  background-color: #4285f4; /* Google Maps color */
+}
+
+.property-detail a:first-child:hover {
+  background-color: #3367d6;
+}
+
+/* Estilos para el campo de selección de fecha */
+.property-detail input[type="date"] {
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+  transition: border-color 0.3s ease;
+}
+
+.property-detail input[type="date"]:focus {
+  border-color: #1a73e8;
+  outline: none;
+}
+
+.property-detail label {
+  font-size: 1rem;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Contenedor de fechas */
+.date-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem; /* Espacio entre los campos */
+  background-color: #f4f4f4; /* Fondo gris claro */
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+  margin-top: 1.5rem;
+  text-align: start;
+}
+
+/* Estilos para cada campo de fecha */
+.date-field {
+  display: flex;
+  flex-direction: column;
+  flex: 1; /* Distribución uniforme */
+}
+
+.date-field label {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  text-transform: uppercase; /* Simula el estilo de tu referencia */
+}
+
+.date-field input[type="date"] {
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.date-field input[type="date"]:focus {
+  border-color: #1a73e8; /* Color de borde azul al enfocarse */
+  box-shadow: 0 0 3px rgba(26, 115, 232, 0.4);
+}
+
+/* Estilos responsivos */
+
+/* Para dispositivos móviles (menos de 768px) */
+@media (max-width: 768px) {
+  .property-detail {
+    padding: 1rem;
+    max-width: 100%; /* Ancho completo en pantallas pequeñas */
+  }
+
+  .property-detail h1 {
+    font-size: 2rem; /* Reducir tamaño de fuente */
+  }
+
+  .property-detail p {
+    font-size: 0.9rem; /* Reducir tamaño de fuente */
+  }
+
+  .carousel-image {
+    aspect-ratio: 4 / 3; /* Relación de aspecto más ajustada para pantallas pequeñas */
+  }
+
+  .property-detail a {
+    font-size: 1rem; /* Reducir el tamaño del texto en los botones */
+    padding: 0.6rem 1rem; /* Ajustar el padding de los botones */
+  }
+
+  .property-detail input[type="date"] {
+    width: 100%; /* Hacer el campo de fecha más grande en pantallas pequeñas */
+  }
+}
+
+/* Para tabletas (768px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .property-detail {
+    padding: 1.5rem;
+    max-width: 90%; /* Un poco menos de ancho en tabletas */
+  }
+
+  .property-detail h1 {
+    font-size: 2.2rem;
+  }
+
+  .property-detail p {
+    font-size: 1rem;
+  }
+
+  .carousel-image {
+    aspect-ratio: 16 / 9; /* Mantener la relación de aspecto en tabletas */
+  }
+
+  .property-detail a {
+    font-size: 1.1rem;
+    padding: 0.7rem 1.2rem;
+  }
+
+  .property-detail input[type="date"] {
+    width: 250px; /* Ajustar el tamaño del campo de fecha */
+  }
+}
+
+/* Para pantallas grandes (más de 1024px) */
+@media (min-width: 1025px) {
+  .property-detail {
+    max-width: 800px; /* Ancho fijo para pantallas grandes */
+  }
+
+  .carousel-image {
+    aspect-ratio: 16 / 9; /* Mantener la relación de aspecto en pantallas grandes */
+  }
+
+  .property-detail a {
+    font-size: 1.2rem;
+    padding: 0.8rem 1.5rem;
+  }
+
+  .property-detail input[type="date"] {
+    width: 200px; /* Ancho estándar para pantallas grandes */
+  }
+}

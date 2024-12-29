@@ -1,0 +1,88 @@
+.banner {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.7),
+      rgba(185, 170, 171, 0.5)
+    ),
+    url("../../assets/img-fondos/fondo1.webp");
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem; /* Agregar padding para evitar bordes pegados */
+}
+
+.banner h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.banner p {
+  font-size: 1.2rem;
+  max-width: 80%;
+  margin-bottom: 1.5rem;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.banner button {
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  background-color: rgb(185, 170, 171);
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.banner button:hover {
+  background-color: #e1cccd;
+  color: #706465;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .banner {
+    height: 50vh; /* Reducir la altura en pantallas pequeñas */
+    padding: 2rem; /* Mayor espaciado interno */
+  }
+
+  .banner h1 {
+    font-size: 2rem; /* Reducir el tamaño del texto */
+  }
+
+  .banner p {
+    font-size: 1rem; /* Reducir el tamaño del texto */
+    max-width: 90%; /* Aumentar el ancho permitido */
+  }
+
+  .banner button {
+    font-size: 1rem; /* Ajustar el tamaño del botón */
+    padding: 0.8rem 1.5rem; /* Reducir el padding del botón */
+  }
+}
+
+@media (max-width: 480px) {
+  .banner {
+    height: 60vh; /* Ajustar la altura en pantallas muy pequeñas */
+    padding: 1.5rem; /* Reducir el padding interno */
+  }
+
+  .banner h1 {
+    font-size: 1.5rem; /* Tamaño más pequeño del texto */
+  }
+
+  .banner p {
+    font-size: 0.9rem; /* Texto más compacto */
+  }
+
+  .banner button {
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem; /* Botones más pequeños */
+  }
+}

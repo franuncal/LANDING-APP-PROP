@@ -1,0 +1,25 @@
+.footer {
+  background-color: #b9aaab;
+  color: white; /* Texto en blanco */
+  padding: 1rem;
+  text-align: center; /* Centra el texto */
+  font-size: 0.9rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  margin: 0; /* Elimina márgenes innecesarios */
+  font-family: Arial, sans-serif; /* Tipografía simple */
+}
+
+.footer a {
+  color: #4caf50; /* Color verde */
+  text-decoration: none; /* Sin subrayado */
+  margin-left: 0.5rem;
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Subrayado al pasar el cursor */
+}
