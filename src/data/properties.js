@@ -34,6 +34,7 @@ import a41 from "../assets/img-prop/Alojamiento 4 /a4 -1.webp";
 import a42 from "../assets/img-prop/Alojamiento 4 /a4 -2.webp";
 import a43 from "../assets/img-prop/Alojamiento 4 /a4 -3.webp";
 import a44 from "../assets/img-prop/Alojamiento 4 /a4 -4.webp";
+import a45 from "../assets/img-prop/Alojamiento 4 /a4 -5.webp";
 
 // Al 5
 import a51 from "../assets/img-prop/Alojamiento 5/a5 -1.webp";
@@ -57,7 +58,7 @@ import a66 from "../assets/img-prop/Alojamiento 6/a6 -6.webp";
 import a67 from "../assets/img-prop/Alojamiento 6/a6 -7.webp";
 import a68 from "../assets/img-prop/Alojamiento 6/a6 -8.webp";
 
-// Al7
+// Al 7
 import a71 from "../assets/img-prop/Alojamiento 7/a7 -1.webp";
 import a72 from "../assets/img-prop/Alojamiento 7/a7 -2.webp";
 import a73 from "../assets/img-prop/Alojamiento 7/a7 -3.webp";
@@ -65,7 +66,7 @@ import a74 from "../assets/img-prop/Alojamiento 7/a7 -4.webp";
 import a75 from "../assets/img-prop/Alojamiento 7/a7 -5.webp";
 import a76 from "../assets/img-prop/Alojamiento 7/a7 -6.webp";
 
-// Al8
+// Al 8
 import a81 from "../assets/img-prop/Alojamiento 8/a8 -1.webp";
 import a82 from "../assets/img-prop/Alojamiento 8/a8 -2.webp";
 import a83 from "../assets/img-prop/Alojamiento 8/a8 -3.webp";
@@ -81,8 +82,15 @@ import a93 from "../assets/img-prop/Alojamiento 9/a9 -4.webp";
 import a94 from "../assets/img-prop/Alojamiento 9/a9 -5.webp";
 import a95 from "../assets/img-prop/Alojamiento 9/a9 -6.webp";
 import a96 from "../assets/img-prop/Alojamiento 9/a9 -7.webp";
-import a97 from "../assets/img-prop/Alojamiento 9/a9 -11.webp";
+import a97 from "../assets/img-prop/Alojamiento 9/a9 -8.webp";
 import a98 from "../assets/img-prop/Alojamiento 9/a9 -9.webp";
+import a99 from "../assets/img-prop/Alojamiento 9/a9 -10.webp";
+import a091 from "../assets/img-prop/Alojamiento 9/a9 -11.webp";
+import a092 from "../assets/img-prop/Alojamiento 9/a9 -12.webp";
+import a093 from "../assets/img-prop/Alojamiento 9/a9 -13.webp";
+// import a094 from "../assets/img-prop/Alojamiento 9/a9 -14.webp";
+import a095 from "../assets/img-prop/Alojamiento 9/a9 -15.webp";
+import a096 from "../assets/img-prop/Alojamiento 9/a9 -16.webp";
 
 // Al10
 import a100 from "../assets/img-prop/Alojamiento 10/a10 -1.webp";
@@ -168,7 +176,7 @@ export const properties = [
     price: "$65,000 (Consulta precio por menos huspedes)",
     location: "Rivadavia 920, Esquel, Chubut",
     passengers: 3,
-    images: [a42, a43, a44, a41],
+    images: [a42, a43, a44, a41, a45],
     googleMapsLink: "https://maps.app.goo.gl/aWYJSU6eTggZFPwi6",
     whatsappLink: "https://wa.me/5492945649282",
   },
@@ -210,7 +218,7 @@ export const properties = [
     id: 8,
     title: "Alojamiento 8",
     description: "Loft para grupo de amigos o familia.",
-    price: "$90.000 (Consulta precio por menos huspedes)",
+    price: "$120.000 (Consulta precio por menos huspedes)",
     location: "9 de Julio 625, Esquel, Chubut",
     status: "Disponible",
     passengers: 5,
@@ -225,7 +233,29 @@ export const properties = [
     price: "$135,000 (Consulta precio por menos huspedes)",
     location: "Ruta 259 km 56 paraje Los Cipreses",
     passengers: 4,
-    images: [a96, a97, a90, a91, a92, a93, a94, a95, a98],
+    images: [
+      // Living
+      a93,
+      a94,
+      a98,
+      // Cocina
+      // Comedor
+      a95,
+      a093,
+      // Cuartos
+      a092,
+      a096,
+      a99,
+      a095,
+      // Bano
+      a90,
+      // Exterior
+      a091,
+      a96,
+      a92,
+      a97,
+      a91,
+    ],
     googleMapsLink: "https://maps.app.goo.gl/R1JBD1LhMEtNkBEfA",
     whatsappLink: "https://wa.me/5492945649282",
   },
@@ -234,7 +264,7 @@ export const properties = [
     title: "Alojamiento 10",
     description: "Gran casa patagónica para grupos o familias numerosas.",
     price: "$120,000 (Consulta precio por menos huspedes)",
-    location: "Las Lauras 990, Esquel, Chubut",
+    location: "Dogo Argentino y Los Robles Pellin, Esquel, Chubut",
     passengers: 7,
     images: [
       a100,
@@ -250,7 +280,7 @@ export const properties = [
       a150,
       a192,
     ],
-    googleMapsLink: "https://maps.app.goo.gl/e7FinvhBuNpLT97d8",
+    googleMapsLink: "https://maps.app.goo.gl/AYZC54PPbRRPUqzD9",
     whatsappLink: "https://wa.me/5492945649282",
   },
   {
