@@ -31,7 +31,9 @@ const PropertyDetail = () => {
   const whatsappMessage = `Hola, estoy interesado en alquilar la propiedad "${
     property.title
   }" 
-  desde el ${arrivalDate || "___"} hasta el ${departureDate || "___"}.`;
+  desde el ${arrivalDate || "___"} hasta el ${
+    departureDate || "___"
+  }. Esta disponible?`;
 
   // Crear el enlace de WhatsApp con el mensaje
   const whatsappUrl = `https://wa.me/5492945649282?text=${encodeURIComponent(
