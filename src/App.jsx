@@ -1,4 +1,9 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  useLocation,
+} from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Banner from "./components/Banner/Banner";
 import PropertyCard from "./components/PropertyCard/PropertyCard";
@@ -6,11 +11,13 @@ import PropertyDetail from "./components/PropertyDetail/PropertyDetail";
 import Footer from "./components/Footer/Footer";
 import { properties } from "./data/properties";
 
-const App = () => {
+const AppContent = () => {
+  const location = useLocation();
+
   return (
-    <Router>
+    <>
       <Navbar />
-      <Banner />
+      {location.pathname === "/" && <Banner />}
       <Routes>
         <Route
           exact
@@ -26,8 +33,14 @@ const App = () => {
         <Route path="/property/:id" element={<PropertyDetail />} />
       </Routes>
       <Footer />
-    </Router>
+    </>
   );
 };
+
+const App = () => (
+  <Router>
+    <AppContent />
+  </Router>
+);
 
 export default App;

@@ -19,58 +19,46 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      {/* Logo */}
-      <div className="navbar-logo">
-        <img src={imgLogo} alt="Logo" className="logo" />
-      </div>
+      <div className="navbar-container">
+        {/* Logo */}
+        <div className="navbar-logo">
+          <Link to="/" onClick={() => setIsMenuOpen(false)}>
+            <img src={imgLogo} alt="Logo" className="logo" />
+          </Link>
+        </div>
 
-      {/* Botón de menú hamburguesa */}
-      <div className="navbar-hamburger" onClick={toggleMenu}>
-        <i className="fa fa-bars"></i>
-      </div>
+        {/* Botón hamburguesa */}
+        <div className="navbar-hamburger" onClick={toggleMenu}>
+          <i className="fa fa-bars"></i>
+        </div>
 
-      {/* Menú de navegación */}
-      <div className={`navbar-menu ${isMenuOpen ? "open" : ""}`}>
-        <ul>
-          <li>
-            <Link to="/" onClick={() => setIsMenuOpen(false)}>
-              Inicio
-            </Link>
-          </li>
-          <li>
-            <Link to="/nosotros" onClick={() => setIsMenuOpen(false)}>
-              Nosotros
-            </Link>
-          </li>
-        </ul>
+        {/* Menú */}
+        <div className={`navbar-menu ${isMenuOpen ? "open" : ""}`}>
+          <ul>
+            <li>
+              <Link to="/" onClick={() => setIsMenuOpen(false)}>
+                Inicio
+              </Link>
+            </li>
+            <li>
+              <Link to="/nosotros" onClick={() => setIsMenuOpen(false)}>
+                Nosotros
+              </Link>
+            </li>
+          </ul>
+          <div className="navbar-icons-mobile">
+            <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
+              <i className="fa fa-whatsapp social-icon"></i>
+            </a>
+          </div>
+        </div>
 
-        {/* Íconos de redes sociales (versión móvil) */}
-        <div className="navbar-icons-mobile">
+        {/* Íconos en desktop */}
+        <div className="navbar-icons">
           <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
             <i className="fa fa-whatsapp social-icon"></i>
           </a>
-          {/* <a
-            href="https://instagram.com/miempresa"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fa fa-instagram social-icon"></i>
-          </a> */}
         </div>
-      </div>
-
-      {/* Íconos en desktop */}
-      <div className="navbar-icons">
-        <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
-          <i className="fa fa-whatsapp social-icon"></i>
-        </a>
-        {/* <a
-          href="https://instagram.com/miempresa"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fa fa-instagram social-icon"></i>
-        </a> */}
       </div>
     </nav>
   );

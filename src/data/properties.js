@@ -134,6 +134,19 @@ import a135 from "../assets/img-prop/Alojamiento 13/a13 -5.webp";
 import a136 from "../assets/img-prop/Alojamiento 13/a13 -6.webp";
 import a137 from "../assets/img-prop/Alojamiento 13/a13 -7.webp";
 
+// Al 14
+import nusa from "../assets/img-prop/Alojamiento 14/Nusa1.webp";
+import nusa1 from "../assets/img-prop/Alojamiento 14/Nusa2.webp";
+import nusa2 from "../assets/img-prop/Alojamiento 14/Nusa3.webp";
+import nusa3 from "../assets/img-prop/Alojamiento 14/Nusa4.webp";
+import nusa4 from "../assets/img-prop/Alojamiento 14/Nusa5.webp";
+import nusa5 from "../assets/img-prop/Alojamiento 14/Nusa6.webp";
+import nusa6 from "../assets/img-prop/Alojamiento 14/Nusa7.webp";
+import nusa7 from "../assets/img-prop/Alojamiento 14/Nusa8.webp";
+import nusa8 from "../assets/img-prop/Alojamiento 14/Nusa9.webp";
+import nusa9 from "../assets/img-prop/Alojamiento 14/Nusa10.webp";
+import nusa10 from "../assets/img-prop/Alojamiento 14/Nusa11.webp";
+
 export const properties = [
   {
     id: 1,
@@ -317,6 +330,31 @@ export const properties = [
     status: "Disponible",
     passengers: 3,
     images: [a131, a132, a133, a134, a137, a136, a135],
+    googleMapsLink: "https://maps.app.goo.gl/cMZRnWwme7WDtHwbA",
+    whatsappLink: "https://wa.me/5492945649282",
+  },
+  {
+    id: 14,
+    title: "Alojamiento 14",
+    description:
+      "Casa nusa 4 pax parrilla primer piso toilette living cocina comedor. Primer piso baño completo dos habitaciones 1 cama matrimonial y la otra dos camitas. ",
+    price: "$98,000 (Consulta precio por menos huspedes)",
+    location: "Argentino Nuñez 47",
+    status: "Disponible",
+    passengers: 3,
+    images: [
+      nusa,
+      nusa1,
+      nusa2,
+      nusa3,
+      nusa4,
+      nusa5,
+      nusa6,
+      nusa7,
+      nusa8,
+      nusa9,
+      nusa10,
+    ],
     googleMapsLink: "https://maps.app.goo.gl/cMZRnWwme7WDtHwbA",
     whatsappLink: "https://wa.me/5492945649282",
   },

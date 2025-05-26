@@ -58,9 +58,9 @@ const PropertyDetail = () => {
         </Slider>
       </div>
       <p>{property.description}</p>
-      <p>
+      {/* <p>
         Tarifa por Noche: <strong>{property.price}</strong>
-      </p>
+      </p> */}
       <p>Ubicación: {property.location}</p>
       <p>
         Huspedes: <strong>{property.passengers}</strong>
@@ -100,7 +100,7 @@ const PropertyDetail = () => {
         rel="noopener noreferrer"
         className="whatsapp-link"
       >
-        Reservar por WhatsApp
+        Consultar por WhatsApp
       </a>
       <p>No te cobramos cargos hasta concretar la reserva</p>
     </div>
