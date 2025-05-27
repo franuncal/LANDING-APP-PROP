@@ -67,12 +67,12 @@ import a75 from "../assets/img-prop/Alojamiento 7/a7 -5.webp";
 import a76 from "../assets/img-prop/Alojamiento 7/a7 -6.webp";
 
 // Al 8
-import a81 from "../assets/img-prop/Alojamiento 8/a8 -1.webp";
-import a82 from "../assets/img-prop/Alojamiento 8/a8 -2.webp";
-import a83 from "../assets/img-prop/Alojamiento 8/a8 -3.webp";
-import a84 from "../assets/img-prop/Alojamiento 8/a8 -4.webp";
-import a85 from "../assets/img-prop/Alojamiento 8/a8 -5.webp";
-import a86 from "../assets/img-prop/Alojamiento 8/a8 -6.webp";
+// import a81 from "../assets/img-prop/Alojamiento 8/a8 -1.webp";
+// import a82 from "../assets/img-prop/Alojamiento 8/a8 -2.webp";
+// import a83 from "../assets/img-prop/Alojamiento 8/a8 -3.webp";
+// import a84 from "../assets/img-prop/Alojamiento 8/a8 -4.webp";
+// import a85 from "../assets/img-prop/Alojamiento 8/a8 -5.webp";
+// import a86 from "../assets/img-prop/Alojamiento 8/a8 -6.webp";
 
 // Al 9
 import a90 from "../assets/img-prop/Alojamiento 9/a9 -1.webp";
@@ -126,13 +126,13 @@ import a127 from "../assets/img-prop/Alojamiento 12/a12 -7.webp";
 import a128 from "../assets/img-prop/Alojamiento 12/a12 -8.webp";
 
 // Al 13
-import a131 from "../assets/img-prop/Alojamiento 13/a13 -1.webp";
-import a132 from "../assets/img-prop/Alojamiento 13/a13 -2.webp";
-import a133 from "../assets/img-prop/Alojamiento 13/a13 -3.webp";
-import a134 from "../assets/img-prop/Alojamiento 13/a13 -4.webp";
-import a135 from "../assets/img-prop/Alojamiento 13/a13 -5.webp";
-import a136 from "../assets/img-prop/Alojamiento 13/a13 -6.webp";
-import a137 from "../assets/img-prop/Alojamiento 13/a13 -7.webp";
+// import a131 from "../assets/img-prop/Alojamiento 13/a13 -1.webp";
+// import a132 from "../assets/img-prop/Alojamiento 13/a13 -2.webp";
+// import a133 from "../assets/img-prop/Alojamiento 13/a13 -3.webp";
+// import a134 from "../assets/img-prop/Alojamiento 13/a13 -4.webp";
+// import a135 from "../assets/img-prop/Alojamiento 13/a13 -5.webp";
+// import a136 from "../assets/img-prop/Alojamiento 13/a13 -6.webp";
+// import a137 from "../assets/img-prop/Alojamiento 13/a13 -7.webp";
 
 // Al 14
 import gus8 from "../assets/img-prop/CasaGus/gus1.webp";
@@ -280,18 +280,18 @@ export const properties = [
     googleMapsLink: "https://maps.app.goo.gl/xsNNRdHTFpESQPme6",
     whatsappLink: "https://wa.me/5492945649282",
   },
-  {
-    id: 8,
-    title: "Alojamiento 8",
-    description: "Loft para grupo de amigos o familia.",
-    price: "$120.000 (Consulta precio por menos huspedes)",
-    location: "9 de Julio 625, Esquel, Chubut",
-    status: "Disponible",
-    passengers: 5,
-    images: [a81, a83, a84, a82, a85, a86],
-    googleMapsLink: "https://maps.app.goo.gl/xsNNRdHTFpESQPme6",
-    whatsappLink: "https://wa.me/5492945649282",
-  },
+  // {
+  //   id: 8,
+  //   title: "Alojamiento 8",
+  //   description: "Loft para grupo de amigos o familia.",
+  //   price: "$120.000 (Consulta precio por menos huspedes)",
+  //   location: "9 de Julio 625, Esquel, Chubut",
+  //   status: "Disponible",
+  //   passengers: 5,
+  //   images: [a81, a83, a84, a82, a85, a86],
+  //   googleMapsLink: "https://maps.app.goo.gl/xsNNRdHTFpESQPme6",
+  //   whatsappLink: "https://wa.me/5492945649282",
+  // },
   {
     id: 9,
     title: "Alojamiento 9",
@@ -374,16 +374,16 @@ export const properties = [
     googleMapsLink: "https://maps.app.goo.gl/7upwn4etFNthaupV9",
     whatsappLink: "https://wa.me/5492945649282",
   },
-  {
-    id: 13,
-    title: "Alojamiento 13",
-    description: "Quincho con las mejores vistas.",
-    price: "$98,000 (Consulta precio por menos huspedes)",
-    location: "Ruta 259, Las Margaritas, km 17,5",
-    status: "Disponible",
-    passengers: 3,
-    images: [a131, a132, a133, a134, a137, a136, a135],
-    googleMapsLink: "https://maps.app.goo.gl/cMZRnWwme7WDtHwbA",
-    whatsappLink: "https://wa.me/5492945649282",
-  },
+  // {
+  //   id: 13,
+  //   title: "Alojamiento 13",
+  //   description: "Quincho con las mejores vistas.",
+  //   price: "$98,000 (Consulta precio por menos huspedes)",
+  //   location: "Ruta 259, Las Margaritas, km 17,5",
+  //   status: "Disponible",
+  //   passengers: 3,
+  //   images: [a131, a132, a133, a134, a137, a136, a135],
+  //   googleMapsLink: "https://maps.app.goo.gl/cMZRnWwme7WDtHwbA",
+  //   whatsappLink: "https://wa.me/5492945649282",
+  // },
 ];
