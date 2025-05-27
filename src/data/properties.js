@@ -168,7 +168,7 @@ export const properties = [
     description:
       "PB: Toilette/Living/Cocina/Comedor - Primer Piso: Baño Completo/1 Hab. Matrimonial/1 Hab. con dos camas.",
     amenities: "Lavarropas - Wifi - Ropa Blanca - Tv - Parrilla",
-    location: "Argentino Nuñez 47",
+    location: "Argentino Nuñez 47 - Esquel, Chubut.",
     status: "Disponible",
     passengers: 4,
     images: [
@@ -194,9 +194,9 @@ export const properties = [
     title: "Casa Gustavo",
     description: "Dos habitaciones una matrimonial/ Otra con 3 camitas.",
     amenities: "Lavadero - Wifi - Ropa Blanca - Tv - Parrilla",
-    location: "Los Robles Pellin 2152",
+    location: "Los Robles Pellin 2152 - Esquel, Chubut.",
     status: "Disponible",
-    passengers: 6,
+    passengers: 5,
     images: [gus8, gus2, gus1, gus3, gus4, gus5, gus6, gus7, gus9, gus10],
     googleMapsLink: "https://maps.app.goo.gl/d2cn4hwD92niTBa19",
     whatsappLink: "https://wa.me/5492945649282",
