@@ -135,19 +135,72 @@ import a136 from "../assets/img-prop/Alojamiento 13/a13 -6.webp";
 import a137 from "../assets/img-prop/Alojamiento 13/a13 -7.webp";
 
 // Al 14
-import nusa from "../assets/img-prop/Alojamiento 14/Nusa1.webp";
-import nusa1 from "../assets/img-prop/Alojamiento 14/Nusa2.webp";
-import nusa2 from "../assets/img-prop/Alojamiento 14/Nusa3.webp";
-import nusa3 from "../assets/img-prop/Alojamiento 14/Nusa4.webp";
-import nusa4 from "../assets/img-prop/Alojamiento 14/Nusa5.webp";
-import nusa5 from "../assets/img-prop/Alojamiento 14/Nusa6.webp";
-import nusa6 from "../assets/img-prop/Alojamiento 14/Nusa7.webp";
-import nusa7 from "../assets/img-prop/Alojamiento 14/Nusa8.webp";
-import nusa8 from "../assets/img-prop/Alojamiento 14/Nusa9.webp";
-import nusa9 from "../assets/img-prop/Alojamiento 14/Nusa10.webp";
-import nusa10 from "../assets/img-prop/Alojamiento 14/Nusa11.webp";
+import gus8 from "../assets/img-prop/CasaGus/gus1.webp";
+import gus1 from "../assets/img-prop/CasaGus/gus2.webp";
+import gus2 from "../assets/img-prop/CasaGus/gus3.webp";
+import gus3 from "../assets/img-prop/CasaGus/gus4.webp";
+import gus4 from "../assets/img-prop/CasaGus/gus5.webp";
+import gus5 from "../assets/img-prop/CasaGus/gus6.webp";
+import gus6 from "../assets/img-prop/CasaGus/gus7.webp";
+import gus7 from "../assets/img-prop/CasaGus/gus8.webp";
+import gus9 from "../assets/img-prop/CasaGus/gus9.webp";
+import gus10 from "../assets/img-prop/CasaGus/gus10.webp";
+// import gus11 from "../assets/img-prop/CasaGus/gus11.webp";
+
+import nusa1 from "../assets/img-prop/Nusa/Nusa1.webp";
+import nusa2 from "../assets/img-prop/Nusa/Nusa2.webp";
+import nusa3 from "../assets/img-prop/Nusa/Nusa3.webp";
+import nusa4 from "../assets/img-prop/Nusa/Nusa4.webp";
+import nusa5 from "../assets/img-prop/Nusa/Nusa5.webp";
+import nusa6 from "../assets/img-prop/Nusa/Nusa6.webp";
+import nusa7 from "../assets/img-prop/Nusa/Nusa7.webp";
+import nusa8 from "../assets/img-prop/Nusa/Nusa8.webp";
+import nusa9 from "../assets/img-prop/Nusa/Nusa9.webp";
+import nusa10 from "../assets/img-prop/Nusa/nusa10.webp";
+import nusa11 from "../assets/img-prop/Nusa/Nusa11.webp";
+import nusa12 from "../assets/img-prop/Nusa/Nusa12.webp";
+import nusa13 from "../assets/img-prop/Nusa/Nusa13.webp";
 
 export const properties = [
+  {
+    id: 15,
+    title: "Casa Nusa",
+    description:
+      "PB: Toilette/Living/Cocina/Comedor - Primer Piso: Baño Completo/1 Hab. Matrimonial/1 Hab. con dos camas.",
+    amenities: "Lavarropas - Wifi - Ropa Blanca - Tv - Parrilla",
+    location: "Argentino Nuñez 47",
+    status: "Disponible",
+    passengers: 4,
+    images: [
+      nusa13,
+      nusa12,
+      nusa1,
+      nusa2,
+      nusa3,
+      nusa4,
+      nusa5,
+      nusa6,
+      nusa7,
+      nusa8,
+      nusa9,
+      nusa10,
+      nusa11,
+    ],
+    googleMapsLink: "https://maps.app.goo.gl/b8B5PU4EFvkVUCJR8",
+    whatsappLink: "https://wa.me/5492945649282",
+  },
+  {
+    id: 14,
+    title: "Casa Gustavo",
+    description: "Dos habitaciones una matrimonial/ Otra con 3 camitas.",
+    amenities: "Lavadero - Wifi - Ropa Blanca - Tv - Parrilla",
+    location: "Roble Pellin 2152",
+    status: "Disponible",
+    passengers: 6,
+    images: [gus8, gus2, gus1, gus3, gus4, gus5, gus6, gus7, gus9, gus10],
+    googleMapsLink: "https://maps.app.goo.gl/cMZRnWwme7WDtHwbA",
+    whatsappLink: "https://wa.me/5492945649282",
+  },
   {
     id: 1,
     title: "Alojamiento 1",
@@ -330,31 +383,6 @@ export const properties = [
     status: "Disponible",
     passengers: 3,
     images: [a131, a132, a133, a134, a137, a136, a135],
-    googleMapsLink: "https://maps.app.goo.gl/cMZRnWwme7WDtHwbA",
-    whatsappLink: "https://wa.me/5492945649282",
-  },
-  {
-    id: 14,
-    title: "Alojamiento 14",
-    description:
-      "Casa Gustavo 4 pax parrilla primer piso toilette living cocina comedor. Primer piso baño completo dos habitaciones 1 cama matrimonial y la otra dos camitas. ",
-    price: "$98,000 (Consulta precio por menos huspedes)",
-    location: "Argentino Nuñez 47",
-    status: "Disponible",
-    passengers: 3,
-    images: [
-      nusa8,
-      nusa,
-      nusa2,
-      nusa1,
-      nusa3,
-      nusa4,
-      nusa5,
-      nusa6,
-      nusa7,
-      nusa9,
-      nusa10,
-    ],
     googleMapsLink: "https://maps.app.goo.gl/cMZRnWwme7WDtHwbA",
     whatsappLink: "https://wa.me/5492945649282",
   },

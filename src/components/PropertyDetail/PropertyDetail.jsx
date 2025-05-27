@@ -58,9 +58,9 @@ const PropertyDetail = () => {
         </Slider>
       </div>
       <p>{property.description}</p>
-      {/* <p>
-        Tarifa por Noche: <strong>{property.price}</strong>
-      </p> */}
+      <p>
+        Amenities: <strong>{property.amenities}</strong>
+      </p>
       <p>Ubicación: {property.location}</p>
       <p>
         Huspedes: <strong>{property.passengers}</strong>
